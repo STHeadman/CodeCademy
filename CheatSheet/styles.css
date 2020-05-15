@@ -1,0 +1,108 @@
+*{
+    font-family: Helvetica;
+}
+
+body{
+    background-color:#2e274b;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: auto;
+    margin-left: auto;
+}
+section{
+    background-color: #211e2f;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h1{
+    background-image: url("./images/trinity-college-library-dublin.jpg");
+    background-position: center;
+    font-size: 50px;
+    color:white;
+    text-align: center;
+    margin:0%;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+
+h2{
+    color:white;
+    padding:5px;
+    text-align: center;
+    margin:5px;
+}
+
+.navigationbar{
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.navigationbar li{
+    display: inline-block;
+    list-style: none;
+}
+
+.navigationbar li a{
+    text-decoration: none;
+    color:white;
+    padding:10px
+}
+
+.navigationbar li a:hover{
+    background-color:#e85d72;
+    color:#211e2f;
+    font-weight: bold;
+}
+
+table th{
+ background-color: #ffe08379;
+ color:#211e2f;
+ border: 2px solid;
+ border-collapse: collapse;
+ padding:5px;
+ border-color:#ffe083; 
+ text-align: center;
+}
+table.center{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.dcenter{
+    text-align: center;
+    color:#e85d72;
+    font-weight: bold;
+}
+
+.table2fill{
+    text-align: center;
+    color:#b4d34b;
+    font-weight: bold;
+}
+
+.table3fill{
+    text-align: center;
+    color:#ffe083;
+    font-weight: bold;
+}
+
+table td, tr {
+   border: 2px solid;
+    border-collapse: collapse;
+    padding:5px;
+    border-color:#ffe083; 
+    color:white;
+    white-space: nowrap;
+    text-align: left;
+}
+
+footer{
+    color:white;
+    text-align:center;
+}
