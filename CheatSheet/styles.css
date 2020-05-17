@@ -33,6 +33,10 @@ h2{
     margin:5px;
 }
 
+p{
+    margin:5px;
+}
+
 .navigationbar{
     margin-top: 10px;
     margin-bottom:10px;
@@ -105,4 +109,27 @@ table td, tr {
 footer{
     color:white;
     text-align:center;
+}
+
+.dropdown-content{
+    /*opacity:0;
+    transition: opacity 0.3s ease-out; */
+    display:none;
+    position: absolute;
+    background-color: #211e2f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+   /* opacity: 1; */
+}
+
+.whitenb{
+    color: white;
+    font-weight: normal;
 }
