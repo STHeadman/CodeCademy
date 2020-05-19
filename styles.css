@@ -122,6 +122,7 @@ footer{
     z-index: 1;
     border: 1px solid white;
     padding: 5px;
+    text-align: left;
 }
 
 .dropdown:hover .dropdown-content{
